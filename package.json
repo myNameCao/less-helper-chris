@@ -11,6 +11,10 @@
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/myNameCao/less-helper-chris.git"
+	  },
 	"keywords": [
 		"var",
 		"less",
