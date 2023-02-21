@@ -1,9 +1,6 @@
 import * as vscode from "vscode";
 import utils from "../utils";
 const rgba = require('color-rgba');
-
-// import   rgbHex from "rgb-hex";
-
 var rgb2hex = require('rgb2hex');
 
 
