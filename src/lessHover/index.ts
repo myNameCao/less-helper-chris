@@ -1,6 +1,11 @@
 import * as vscode from "vscode";
-const getColor = require('get-css-colors');
 import utils from "../utils";
+const rgba = require('color-rgba');
+
+// import   rgbHex from "rgb-hex";
+
+var rgb2hex = require('rgb2hex');
+
 
 
 const provideHover = async (
@@ -27,9 +32,15 @@ const provideHover = async (
     if(!word.startsWith("@")){
       word= '@'+word;
     }
-    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${lastColor};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
+
+     const [r, g, b, alpha] = rgba(lastColor);
+    //  const colorHex= rgbHex(r, g, b, alpha);
+
+    const {hex}=rgb2hex(`rgba(${r},${g},${b},${alpha})`);
+
+    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${hex};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
     markdown.isTrusted = true;
-     return new vscode.Hover(markdown);
+    return new vscode.Hover(markdown);
   }
 };
 
