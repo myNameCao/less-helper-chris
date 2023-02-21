@@ -6,6 +6,11 @@
 ![image](https://user-images.githubusercontent.com/23721492/217176324-cedb0dfe-b011-4c16-a623-950a5bcc370b.png)
 ![image](https://user-images.githubusercontent.com/23721492/217176425-5bb0f2e8-368b-4c03-bcfa-2671003ae6a1.png)
 
+ js 变量文件注意, 如果js 设置无效，请参考以下
+ ![image](https://user-images.githubusercontent.com/23721492/220287757-dd8581fa-df36-4758-bd17-e3852326cb35.png)
+
+ 
+
 ## 配置(设置项目的全局类型)
 
 设置 > 拓展 > less-plugin-chris
