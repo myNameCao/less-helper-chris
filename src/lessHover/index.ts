@@ -27,7 +27,9 @@ const provideHover = async (
     if(!word.startsWith("@")){
       word= '@'+word;
     }
-    return new vscode.Hover(`${word} : ${lastColor}`);
+    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${lastColor};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
+    markdown.isTrusted = true;
+     return new vscode.Hover(markdown);
   }
 };
 
