@@ -33,12 +33,17 @@ const provideHover = async (
       word= '@'+word;
     }
 
-     const [r, g, b, alpha] = rgba(lastColor);
-    //  const colorHex= rgbHex(r, g, b, alpha);
+     const values = rgba(lastColor);
+     let color= '#FFF';
 
-    const {hex}=rgb2hex(`rgba(${r},${g},${b},${alpha})`);
+     if(values.length){
+      let   [r, g, b, alpha]= values;
+       let {hex}=rgb2hex(`rgba(${r},${g},${b},${alpha})`);
+       color= hex;
 
-    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${hex};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
+     }
+   
+    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${color};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
     markdown.isTrusted = true;
     return new vscode.Hover(markdown);
   }
