@@ -1,4 +1,4 @@
-# less-plugin-chris （兼容vue 项目）
+# less-plugin-chris （适用 vue ）
 
 ## 配置(设置项目的变量文件)
 
@@ -60,7 +60,5 @@
 
 根据同级以及 vscode 中已打开的 jsx、tsx 文件，自动补全 less 文件的 className。
 ![less变量补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014636-2a14eca0-7971-4817-8c32-1391f1c59432.gif)
-
-
 
 
