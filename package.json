@@ -3,7 +3,7 @@
 	"displayName": "less-helper-chris",
 	"description": "less变量提示,和全局className 提示 ",
 	"icon": "images/less_helper_chris.png",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"publisher": "xy-chris",
 	"engines": {
 		"vscode": "^1.48.0"
@@ -83,11 +83,11 @@
 		}
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
+		"vscode:prepublish": "yarn compile",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
 		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
+		"pretest": "yarn compile && yarn lint",
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
