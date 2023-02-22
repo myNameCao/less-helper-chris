@@ -48,7 +48,7 @@
 
 ![jsx-className自动补全](https://user-images.githubusercontent.com/23721492/218014579-912fc685-d715-4120-a770-b017bfbd91fb.gif)
 
-### 5. 通过别名补全 className( 暂时没有用)
+### 5. 通过别名补全 className( 暂时没有用，下一步完善)
 
 但有时候，全局样式文件中的一些 className 难以记住，这时我们可以通过别名识别某个 className。我们可以在全局 className 的前一行敲入 ad 来键入一个代码片段，用于填写别名和 className 的描述，然后就可以通过设置的别名来进行 className 的补全。
 
@@ -56,7 +56,7 @@
 
 ![别名补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014607-4d2535fb-c26d-42c7-8562-6afb142c3807.gif)
 
-### 6. 自动补全 less 文件的 className( 暂时没有用)
+### 6. 自动补全 less 文件的 className( 暂时没有用,下一步完善)
 
 根据同级以及 vscode 中已打开的 jsx、tsx 文件，自动补全 less 文件的 className。
 ![less变量补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014636-2a14eca0-7971-4817-8c32-1391f1c59432.gif)
