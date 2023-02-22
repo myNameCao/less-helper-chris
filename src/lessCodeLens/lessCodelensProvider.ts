@@ -1,19 +1,13 @@
 import * as vscode from "vscode";
 const rgba = require('color-rgba');
 import tipCodeLens from "./tipCodeLens";
-
-
 import utils from "../utils";
-
-
 function matchLessVariable(lessVariables: any, targetValue: string) {
 
   // 可能匹配出多个变量
 	let list = [];
 	for (const key in lessVariables) {
 		const lastImte= lessVariables[key].slice(-1)[0];
-
-			
 	let a= rgba(lastImte.value).toString();
 	let b= rgba(targetValue).toString();
    // 可能是颜色 兼容 可以转化的颜色
