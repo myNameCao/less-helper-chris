@@ -38,7 +38,8 @@
 ### 3. less 变量 hover 提示
 
 当 hover 在 less 变量上，会进行对应的键值对提示。
-![hover](https://user-images.githubusercontent.com/23721492/218014540-11263f17-89bc-49ee-a639-19e51442bb80.png)
+![image](https://user-images.githubusercontent.com/23721492/220515048-f55ca5d8-5b24-47be-911b-2c8f1c69ad98.png)
+
 
 
 ### 4. className 自动补全
