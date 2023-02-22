@@ -5,15 +5,6 @@ import tipCodeLens from "./tipCodeLens";
 
 import utils from "../utils";
 
-// function getRootPath(document:vscode.TextDocument) {
-//     const activeWorkspace = vscode.workspace.getWorkspaceFolder(document.uri);
-
-//     if (activeWorkspace) {
-//       return activeWorkspace;
-//     }
-
-//     return vscode.workspace;
-// }
 
 function matchLessVariable(lessVariables: any, targetValue: string) {
 

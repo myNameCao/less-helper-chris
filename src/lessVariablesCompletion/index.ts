@@ -1,6 +1,5 @@
 import * as vscode from "vscode";
-const getColor = require('get-css-colors')
-import findVariables from "../utli/findLessVariables";
+const getColor = require('get-css-colors');
 import utils from "../utils";
 
 const provideCompletionItems = async (

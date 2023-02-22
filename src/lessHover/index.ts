@@ -32,7 +32,6 @@ const provideHover = async (
 
      const values = rgba(lastColor);
      let color= '#FFF';
-
      if(values.length){
       let   [r, g, b, alpha]= values;
        let {hex}=rgb2hex(`rgba(${r},${g},${b},${alpha})`);
