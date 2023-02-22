@@ -39,7 +39,9 @@ const provideHover = async (
 
      }
    
-    const markdown = new vscode.MarkdownString(`${word} :  <span style="color:${color};background-color:#000;">&nbsp;&nbsp;&nbsp;  ${lastColor} &nbsp;&nbsp;&nbsp;</span>`);
+    const markdown = new vscode.MarkdownString(`<span style="color:${color};background-color:#000;">
+    &nbsp; ${word} :  ${lastColor}    &nbsp;&nbsp;&nbsp;
+     </span>`);
     markdown.isTrusted = true;
     return new vscode.Hover(markdown);
   }

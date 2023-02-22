@@ -27,6 +27,7 @@ export class CodelensProvider implements vscode.CodeLensProvider {
 	constructor() {
 		this.regex = /.:[\s]*([^:\s;]+)/g;
 
+
 		vscode.workspace.onDidChangeConfiguration(_ => {
 			this._onDidChangeCodeLenses.fire();
 		});
