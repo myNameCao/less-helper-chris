@@ -3,7 +3,7 @@
 	"displayName": "less-helper-chris",
 	"description": "less变量提示,和全局className 提示 ",
 	"icon": "images/less_helper_chris.png",
-	"version": "0.0.7",
+	"version": "0.0.9",
 	"publisher": "xy-chris",
 	"engines": {
 		"vscode": "^1.48.0"
@@ -37,12 +37,7 @@
 				"title": "设置样式变量文件路径"
 			}
 		],
-		"snippets": [
-			{
-				"language": "less",
-				"path": "./snippets/css.json"
-			}
-		],
+		
 		"menus": {
 			"editor/context": [
 				{
