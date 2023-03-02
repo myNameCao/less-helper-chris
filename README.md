@@ -1,4 +1,5 @@
-# less-plugin-chris （兼容vue 项目）
+# less-plugin-chris （适用 vue ）
+
 
 ## 配置(设置项目的变量文件)
 
@@ -24,7 +25,7 @@
 
 有时候我们定义了一些全局的 less 变量，但由于种种原因，如项目成员不清楚已有这样的一堆变量或者对这些变量不熟悉，直接从交互稿上直接复制一些 css 代码等，导致定义好的变量没有被用到，这种情况我们可以通过 codeLens 在页面中给用户一些提示信息，并为用户提供点击使用变量替换原来的值的功能。
 
-### note！   支持颜色转换(rgb rgba keyword HEX)之间对等替换 (注意rgb 和 gaba 括号前后及内部不要有空格,下一步再优化)
+### note！   支持颜色转换(rgb rgba keyword HEX 等)之间对等替换 (注意rgb和gaba括号前后及内部不要有空格,下一步再优化)
 
 ![less-codelens 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014484-b8fe64cb-deee-4f9d-9c22-ae034c2b5700.gif)
 
@@ -48,7 +49,7 @@
 
 ![jsx-className自动补全](https://user-images.githubusercontent.com/23721492/218014579-912fc685-d715-4120-a770-b017bfbd91fb.gif)
 
-### 5. 通过别名补全 className( 暂时没有用)
+### 5. 通过别名补全 className( 暂时没有用，下一步完善)
 
 但有时候，全局样式文件中的一些 className 难以记住，这时我们可以通过别名识别某个 className。我们可以在全局 className 的前一行敲入 ad 来键入一个代码片段，用于填写别名和 className 的描述，然后就可以通过设置的别名来进行 className 的补全。
 
@@ -56,11 +57,13 @@
 
 ![别名补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014607-4d2535fb-c26d-42c7-8562-6afb142c3807.gif)
 
-### 6. 自动补全 less 文件的 className( 暂时没有用)
+### 6. 自动补全 less 文件的 className( 暂时没有用,下一步完善)
 
 根据同级以及 vscode 中已打开的 jsx、tsx 文件，自动补全 less 文件的 className。
 ![less变量补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014636-2a14eca0-7971-4817-8c32-1391f1c59432.gif)
 
 
 
-
+## [问题](https://github.com/myNameCao/less-helper-chris/issues)
+本项目参考了多个项目的功能，如果又什么问题请提交 [issues](https://github.com/myNameCao/less-helper-chris/issues),我的宝贵意见我会抽空优化改正，感谢
+ 
