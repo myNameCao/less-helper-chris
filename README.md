@@ -1,5 +1,6 @@
 # less-plugin-chris （适用 vue ）
 
+
 ## 配置(设置项目的变量文件)
 
 可在less 或者 js 目录文件右击或者 在 less、js 文件编辑区右击（如果右击 无效 请更新 vsocde  帮助> 检查更新）
@@ -62,3 +63,7 @@
 ![less变量补全 00_00_00-00_00_30](https://user-images.githubusercontent.com/23721492/218014636-2a14eca0-7971-4817-8c32-1391f1c59432.gif)
 
 
+
+## [问题](https://github.com/myNameCao/less-helper-chris/issues)
+本项目参考了多个项目的功能，如果又什么问题请提交 [issues](https://github.com/myNameCao/less-helper-chris/issues),我的宝贵意见我会抽空优化改正，感谢
+ 
