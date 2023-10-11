@@ -37,7 +37,6 @@
 				"title": "设置样式变量文件路径"
 			}
 		],
-		
 		"menus": {
 			"editor/context": [
 				{
@@ -94,18 +93,18 @@
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.0",
 		"@types/node": "^14.0.27",
-		"@types/vscode": "^1.48.0",
 		"@typescript-eslint/eslint-plugin": "^3.8.0",
 		"@typescript-eslint/parser": "^3.8.0",
 		"eslint": "^7.6.0",
 		"glob": "^7.1.6",
 		"mocha": "^8.0.1",
-		"typescript": "^3.8.3",
-		"vscode-test": "^1.4.0"
+		"typescript": "^3.8.3"
 	},
 	"dependencies": {
 		"@types/postcss-less": "^3.1.1",
 		"@types/postcss-safe-parser": "^4.0.0",
+		"@types/vscode": "^1.83.0",
+		"@vscode/test-electron": "^2.3.5",
 		"color-alpha": "^1.1.3",
 		"color-rgba": "^2.4.0",
 		"get-css-colors": "^4.0.0",
