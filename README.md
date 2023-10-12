@@ -1,4 +1,4 @@
-# less-plugin-chris （适用 vue ）
+# less-plugin-chris （适用 vue, 如果设置变量文件 失败  请更新插件 > 0.0.15 ）
 
 
 ## 配置(设置项目的变量文件)
